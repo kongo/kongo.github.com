@@ -10,6 +10,7 @@
       text-shadow: 2px 4px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(100,100,100,0.3);
       font-family: 'Noto Serif', serif;
       margin: 5em 20% 0 20%;
+      max-width: 900px;
     }
     h1 {
       font-size: 45pt;
@@ -22,7 +23,7 @@
       margin-bottom: 25pt;
       white-space: nowrap;
     }
-    a {
+    .links a {
       font-size: 20pt;
       color: #cccccc;
       display: block;
@@ -33,6 +34,22 @@
       border: 0;
       border-bottom: 1px dashed #ccc;
       background: #999;
+      margin-bottom: 30pt;
+      clear: both;
+    }
+    .feedback p {
+      font-style: italic;
+      color: #bbb;
+      text-shadow: none;
+      text-indent: 1em;
+      text-align: justify;
+    }
+    .feedback .author a {
+      color: #ddd;
+    }
+    div.links {
+      clear: both;
+      padding-bottom: 30pt;
       margin-bottom: 40pt;
     }
   </style>
@@ -54,6 +71,24 @@
     <a href="http://ua.linkedin.com/pub/dmitry-parshenko/43/6a9/4a6/en">linkedin</a>
     <a href="cv">resume</a>
     <a href="mailto:d.parshenko@gmail.com">email</a>
+  </div>
+  <hr/>
+  <div class="feedbacks-container">
+    <div class="feedback">
+      <p>
+        Truly outstanding high-level programmer who has worked for us on a large and complex project. Served as lead programmer; set programming standards; aided and guided team of several other programmers both from his own company and outside.
+      </p>
+      <p>Learned standards for multiple outside web services and succesfully interfaced our software with them.</p>
+      
+      <p>Proved expert at core programming but also GUI/AJAX work, command line scripts and cron jobs, XML web services and much more.</p>
+      
+      <p>Is very structured, methodical, detailed in his approach. All code follows standards, and is documented thoroughly. We still use some of the tools and techniques he left with us, it has been a lasting benefit.</p>
+      
+      <p>I can give him my highest recommendation.</p>
+      <p class="author">
+        <a href="http://www.linkedin.com/in/royappa/">Andrew Royappa</a>
+      </p>
+    </div>
   </div>
 </body>
 </html>
