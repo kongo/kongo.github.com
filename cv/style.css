@@ -20,3 +20,11 @@
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+.cv-item .cv-item-details p {
+  font-size: 13px;
+}
+
+.row.skills h5 {
+  font-size: 13px;
+}
