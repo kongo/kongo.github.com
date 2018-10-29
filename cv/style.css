@@ -25,16 +25,29 @@
   font-size: 13px;
 }
 
+.cv-item {
+  margin-bottom: 10px;
+}
+
+.cv-section-title {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
 .row.skills h5 {
   font-size: 13px;
 }
 .cv-profile {
-  text-align: center;
   font-size: 1.5em;
   line-height: 24px;
   padding: 20px 0 20px 0;
   text-align: justify;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .cv-profile hr {
   margin: 20px 0 20px 0;
+}
+.cv-profile p {
+  margin-bottom: 0.3em;
 }
